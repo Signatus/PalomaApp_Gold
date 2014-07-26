@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9D599FD1983AE4F0071E720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D599FC1983AE4F0071E720 /* Foundation.framework */; };
+		E9D599FF1983AE4F0071E720 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D599FE1983AE4F0071E720 /* CoreGraphics.framework */; };
+		E9D59A011983AE4F0071E720 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D59A001983AE4F0071E720 /* UIKit.framework */; };
+		E9D59A071983AE4F0071E720 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9D59A051983AE4F0071E720 /* InfoPlist.strings */; };
+		E9D59A091983AE4F0071E720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D59A081983AE4F0071E720 /* main.m */; };
+		E9D59A0D1983AE4F0071E720 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D59A0C1983AE4F0071E720 /* AppDelegate.m */; };
+		E9D59A101983AE4F0071E720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D59A0E1983AE4F0071E720 /* Main.storyboard */; };
+		E9D59A131983AE4F0071E720 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D59A121983AE4F0071E720 /* FirstViewController.m */; };
+		E9D59A161983AE4F0071E720 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D59A151983AE4F0071E720 /* SecondViewController.m */; };
+		E9D59A181983AE4F0071E720 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D59A171983AE4F0071E720 /* Images.xcassets */; };
+		E9D59A1F1983AE4F0071E720 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D59A1E1983AE4F0071E720 /* XCTest.framework */; };
+		E9D59A201983AE4F0071E720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D599FC1983AE4F0071E720 /* Foundation.framework */; };
+		E9D59A211983AE4F0071E720 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D59A001983AE4F0071E720 /* UIKit.framework */; };
+		E9D59A291983AE4F0071E720 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9D59A271983AE4F0071E720 /* InfoPlist.strings */; };
+		E9D59A2B1983AE4F0071E720 /* PalomaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D59A2A1983AE4F0071E720 /* PalomaAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9D59A221983AE4F0071E720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9D599F11983AE4F0071E720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9D599F81983AE4F0071E720;
+			remoteInfo = PalomaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9D599F91983AE4F0071E720 /* PalomaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PalomaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D599FC1983AE4F0071E720 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9D599FE1983AE4F0071E720 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9D59A001983AE4F0071E720 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9D59A041983AE4F0071E720 /* PalomaApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PalomaApp-Info.plist"; sourceTree = "<group>"; };
+		E9D59A061983AE4F0071E720 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9D59A081983AE4F0071E720 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9D59A0A1983AE4F0071E720 /* PalomaApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PalomaApp-Prefix.pch"; sourceTree = "<group>"; };
+		E9D59A0B1983AE4F0071E720 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9D59A0C1983AE4F0071E720 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9D59A0F1983AE4F0071E720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9D59A111983AE4F0071E720 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		E9D59A121983AE4F0071E720 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		E9D59A141983AE4F0071E720 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E9D59A151983AE4F0071E720 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E9D59A171983AE4F0071E720 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9D59A1D1983AE4F0071E720 /* PalomaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PalomaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D59A1E1983AE4F0071E720 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E9D59A261983AE4F0071E720 /* PalomaAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PalomaAppTests-Info.plist"; sourceTree = "<group>"; };
+		E9D59A281983AE4F0071E720 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9D59A2A1983AE4F0071E720 /* PalomaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PalomaAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9D599F61983AE4F0071E720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D599FF1983AE4F0071E720 /* CoreGraphics.framework in Frameworks */,
+				E9D59A011983AE4F0071E720 /* UIKit.framework in Frameworks */,
+				E9D599FD1983AE4F0071E720 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D59A1A1983AE4F0071E720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D59A1F1983AE4F0071E720 /* XCTest.framework in Frameworks */,
+				E9D59A211983AE4F0071E720 /* UIKit.framework in Frameworks */,
+				E9D59A201983AE4F0071E720 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9D599F01983AE4F0071E720 = {
+			isa = PBXGroup;
+			children = (
+				E9D59A021983AE4F0071E720 /* PalomaApp */,
+				E9D59A241983AE4F0071E720 /* PalomaAppTests */,
+				E9D599FB1983AE4F0071E720 /* Frameworks */,
+				E9D599FA1983AE4F0071E720 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9D599FA1983AE4F0071E720 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9D599F91983AE4F0071E720 /* PalomaApp.app */,
+				E9D59A1D1983AE4F0071E720 /* PalomaAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9D599FB1983AE4F0071E720 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9D599FC1983AE4F0071E720 /* Foundation.framework */,
+				E9D599FE1983AE4F0071E720 /* CoreGraphics.framework */,
+				E9D59A001983AE4F0071E720 /* UIKit.framework */,
+				E9D59A1E1983AE4F0071E720 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9D59A021983AE4F0071E720 /* PalomaApp */ = {
+			isa = PBXGroup;
+			children = (
+				E9D59A0B1983AE4F0071E720 /* AppDelegate.h */,
+				E9D59A0C1983AE4F0071E720 /* AppDelegate.m */,
+				E9D59A0E1983AE4F0071E720 /* Main.storyboard */,
+				E9D59A111983AE4F0071E720 /* FirstViewController.h */,
+				E9D59A121983AE4F0071E720 /* FirstViewController.m */,
+				E9D59A141983AE4F0071E720 /* SecondViewController.h */,
+				E9D59A151983AE4F0071E720 /* SecondViewController.m */,
+				E9D59A171983AE4F0071E720 /* Images.xcassets */,
+				E9D59A031983AE4F0071E720 /* Supporting Files */,
+			);
+			path = PalomaApp;
+			sourceTree = "<group>";
+		};
+		E9D59A031983AE4F0071E720 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9D59A041983AE4F0071E720 /* PalomaApp-Info.plist */,
+				E9D59A051983AE4F0071E720 /* InfoPlist.strings */,
+				E9D59A081983AE4F0071E720 /* main.m */,
+				E9D59A0A1983AE4F0071E720 /* PalomaApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9D59A241983AE4F0071E720 /* PalomaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9D59A2A1983AE4F0071E720 /* PalomaAppTests.m */,
+				E9D59A251983AE4F0071E720 /* Supporting Files */,
+			);
+			path = PalomaAppTests;
+			sourceTree = "<group>";
+		};
+		E9D59A251983AE4F0071E720 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9D59A261983AE4F0071E720 /* PalomaAppTests-Info.plist */,
+				E9D59A271983AE4F0071E720 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9D599F81983AE4F0071E720 /* PalomaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D59A2E1983AE4F0071E720 /* Build configuration list for PBXNativeTarget "PalomaApp" */;
+			buildPhases = (
+				E9D599F51983AE4F0071E720 /* Sources */,
+				E9D599F61983AE4F0071E720 /* Frameworks */,
+				E9D599F71983AE4F0071E720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PalomaApp;
+			productName = PalomaApp;
+			productReference = E9D599F91983AE4F0071E720 /* PalomaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9D59A1C1983AE4F0071E720 /* PalomaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D59A311983AE4F0071E720 /* Build configuration list for PBXNativeTarget "PalomaAppTests" */;
+			buildPhases = (
+				E9D59A191983AE4F0071E720 /* Sources */,
+				E9D59A1A1983AE4F0071E720 /* Frameworks */,
+				E9D59A1B1983AE4F0071E720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9D59A231983AE4F0071E720 /* PBXTargetDependency */,
+			);
+			name = PalomaAppTests;
+			productName = PalomaAppTests;
+			productReference = E9D59A1D1983AE4F0071E720 /* PalomaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9D599F11983AE4F0071E720 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Wewe&Wewe Co.";
+				TargetAttributes = {
+					E9D59A1C1983AE4F0071E720 = {
+						TestTargetID = E9D599F81983AE4F0071E720;
+					};
+				};
+			};
+			buildConfigurationList = E9D599F41983AE4F0071E720 /* Build configuration list for PBXProject "PalomaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9D599F01983AE4F0071E720;
+			productRefGroup = E9D599FA1983AE4F0071E720 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9D599F81983AE4F0071E720 /* PalomaApp */,
+				E9D59A1C1983AE4F0071E720 /* PalomaAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9D599F71983AE4F0071E720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D59A181983AE4F0071E720 /* Images.xcassets in Resources */,
+				E9D59A071983AE4F0071E720 /* InfoPlist.strings in Resources */,
+				E9D59A101983AE4F0071E720 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D59A1B1983AE4F0071E720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D59A291983AE4F0071E720 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9D599F51983AE4F0071E720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D59A161983AE4F0071E720 /* SecondViewController.m in Sources */,
+				E9D59A0D1983AE4F0071E720 /* AppDelegate.m in Sources */,
+				E9D59A131983AE4F0071E720 /* FirstViewController.m in Sources */,
+				E9D59A091983AE4F0071E720 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D59A191983AE4F0071E720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D59A2B1983AE4F0071E720 /* PalomaAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9D59A231983AE4F0071E720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9D599F81983AE4F0071E720 /* PalomaApp */;
+			targetProxy = E9D59A221983AE4F0071E720 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9D59A051983AE4F0071E720 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D59A061983AE4F0071E720 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9D59A0E1983AE4F0071E720 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D59A0F1983AE4F0071E720 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9D59A271983AE4F0071E720 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9D59A281983AE4F0071E720 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9D59A2C1983AE4F0071E720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9D59A2D1983AE4F0071E720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9D59A2F1983AE4F0071E720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PalomaApp/PalomaApp-Prefix.pch";
+				INFOPLIST_FILE = "PalomaApp/PalomaApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9D59A301983AE4F0071E720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PalomaApp/PalomaApp-Prefix.pch";
+				INFOPLIST_FILE = "PalomaApp/PalomaApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E9D59A321983AE4F0071E720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PalomaApp.app/PalomaApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PalomaApp/PalomaApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PalomaAppTests/PalomaAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E9D59A331983AE4F0071E720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PalomaApp.app/PalomaApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PalomaApp/PalomaApp-Prefix.pch";
+				INFOPLIST_FILE = "PalomaAppTests/PalomaAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9D599F41983AE4F0071E720 /* Build configuration list for PBXProject "PalomaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D59A2C1983AE4F0071E720 /* Debug */,
+				E9D59A2D1983AE4F0071E720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D59A2E1983AE4F0071E720 /* Build configuration list for PBXNativeTarget "PalomaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D59A2F1983AE4F0071E720 /* Debug */,
+				E9D59A301983AE4F0071E720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9D59A311983AE4F0071E720 /* Build configuration list for PBXNativeTarget "PalomaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D59A321983AE4F0071E720 /* Debug */,
+				E9D59A331983AE4F0071E720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9D599F11983AE4F0071E720 /* Project object */;
+}
